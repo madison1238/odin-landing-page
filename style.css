@@ -30,3 +30,43 @@ a {
   text-decoration: none;
   padding: 8px;
 }
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  padding: 100px 200px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-sub {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  font-size: 18px;
+  color: #f9faf8;
+  padding: 10px;
+  border-radius: 15px;
+  width: 200px;
+}
+
+img {
+  width: 500px;
+  height: 200px;
+  background-color: grey;
+  margin: 0 0 0 50px;
+  flex-shrink: 0;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
